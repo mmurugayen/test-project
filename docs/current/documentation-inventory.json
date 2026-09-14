@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-09-14",
+  "repository": "mmurugayen/test-project",
+  "default_branch": "main",
+  "reviewed_commit": "de2e23af9bc51133f965b17f052442ea54b742d5",
+  "text_documents": 1,
+  "office_pdf_artifacts": 0,
+  "method": "Original source blobs verified by Git hash; text navigation scanned; current entry points, dependencies, setup and architecture compared with selected implementation source. Historical validation results and Office/PDF contents are not recertified.",
+  "records": [
+    {
+      "path": "README.md",
+      "original_blob_sha": "3eb02f3a1aaed9e346b26971349e566fee166480",
+      "reviewed_blob_sha": "ec96f7d02f9aa6acad42e1d967944c7233571773",
+      "classification": "Updated current navigation or source contract",
+      "relative_link_findings": [],
+      "binary_content_revalidated": null
+    }
+  ],
+  "relative_link_findings": [],
+  "records_scope": "Historical documentation review at reviewed_commit; reviewed_blob_sha values record that review, not the current file versions.",
+  "integration_review": {
+    "base_commit": "5b037356c9081938aae8a2f8ffcbc3b1b59e03db",
+    "current_readme_blob_sha": "f5a52d184ff56852b045114b6cd82b30b30a9674",
+    "runtime_source": "preserved byte-for-byte from base",
+    "scope": "Resolve documentation conflict after diagnostics integration."
+  }
+}

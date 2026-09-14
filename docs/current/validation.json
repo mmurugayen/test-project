@@ -1,0 +1,34 @@
+{
+  "repository": "test-project",
+  "reviewed_commit": "de2e23af9bc51133f965b17f052442ea54b742d5",
+  "local_links_checked": 5,
+  "preserved_archive_link_findings": 0,
+  "diagram_count": 0,
+  "modified_original_documents": [
+    "README.md"
+  ],
+  "checks": [],
+  "errors": [],
+  "integration_review": {
+    "base_commit": "5b037356c9081938aae8a2f8ffcbc3b1b59e03db",
+    "checks": [
+      {
+        "command": "python3 scripts/check_observability_coverage.py",
+        "exit_code": 0,
+        "tests_passed": null
+      },
+      {
+        "command": "python3 -m unittest discover -s tests -p test_observability_mcp.py -v",
+        "exit_code": 0,
+        "tests_passed": 16
+      },
+      {
+        "command": "python3 -m unittest discover -s tests -p test_operation_tracing.py -v",
+        "exit_code": 0,
+        "tests_passed": 6
+      }
+    ],
+    "runtime_source": "preserved byte-for-byte from base",
+    "remote_ci": "Not claimed; local workflow commands passed."
+  }
+}
