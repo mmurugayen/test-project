@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-09-14",
+  "repository": "mmurugayen/test-project",
+  "default_branch": "main",
+  "reviewed_source_commit": "1022e6e23b97959c88b7ff592c6a8feb881f27f5",
+  "previous_review_commit": "5b037356c9081938aae8a2f8ffcbc3b1b59e03db",
+  "comparison_status": "ahead",
+  "tracked_files": 29,
+  "text_documents": 8,
+  "office_pdf_artifacts": 0,
+  "diagram_count": 2,
+  "architecture_diagrams": 1,
+  "workflow_diagrams": 1,
+  "relative_targets_checked": 34,
+  "navigation_findings": [],
+  "checks": [
+    {
+      "command": "python docs/current/diagrams/render.py --check",
+      "exit_code": 0,
+      "output": "Checked 2 diagrams"
+    }
+  ],
+  "source_delta_paths": [],
+  "site_runtime_tests": "not_run_documentation_only",
+  "historical_documents": "inventory and navigation checked; original dates and historical acceptance retained",
+  "review_limit": "Current entry points, component ownership, deployment dependencies and workflow source contracts reviewed; historical reports and all individual design claims are not recertified.",
+  "diagram_rasterization": "PASS: all repository SVG diagrams rendered to PNG",
+  "changed_scope": "README and docs only; runtime files and dependency pins unchanged"
+}
