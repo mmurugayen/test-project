@@ -2,16 +2,56 @@
   "review_date": "2026-09-14",
   "repository": "mmurugayen/test-project",
   "default_branch": "main",
-  "reviewed_commit": "de2e23af9bc51133f965b17f052442ea54b742d5",
-  "text_documents": 1,
+  "reviewed_commit": "5b037356c9081938aae8a2f8ffcbc3b1b59e03db",
+  "text_documents": 3,
   "office_pdf_artifacts": 0,
   "method": "Original source blobs verified by Git hash; text navigation scanned; current entry points, dependencies, setup and architecture compared with selected implementation source. Historical validation results and Office/PDF contents are not recertified.",
   "records": [
     {
       "path": "README.md",
-      "original_blob_sha": "3eb02f3a1aaed9e346b26971349e566fee166480",
-      "reviewed_blob_sha": "ec96f7d02f9aa6acad42e1d967944c7233571773",
+      "original_blob_sha": "af5252d811b5f7bdccaeaa78d509c674b4998284",
+      "reviewed_blob_sha": "fe60b8b71994849e556dd10ca8e845bcd64b83e7",
       "classification": "Updated current navigation or source contract",
+      "relative_link_findings": [],
+      "binary_content_revalidated": null
+    },
+    {
+      "path": "docs/OBSERVABILITY_COVERAGE.json",
+      "original_blob_sha": "be7d1e231ca5392ee824fcef8eba5c673d8956d3",
+      "reviewed_blob_sha": "be7d1e231ca5392ee824fcef8eba5c673d8956d3",
+      "classification": "Reference guide/asset; inventory and navigation checked",
+      "relative_link_findings": [],
+      "binary_content_revalidated": null
+    },
+    {
+      "path": "docs/OBSERVABILITY_MCP.md",
+      "original_blob_sha": "0808d985411f92971899ba5c49b4e6e7a16da50a",
+      "reviewed_blob_sha": "0808d985411f92971899ba5c49b4e6e7a16da50a",
+      "classification": "Reference guide/asset; inventory and navigation checked",
+      "relative_link_findings": [],
+      "binary_content_revalidated": null
+    },
+    {
+      "path": "docs/OBSERVABILITY_VALIDATION.json",
+      "original_blob_sha": "7ae43aec39605dcd3ee8e928135ce9f2db3572e4",
+      "reviewed_blob_sha": "7ae43aec39605dcd3ee8e928135ce9f2db3572e4",
+      "classification": "Reference guide/asset; inventory and navigation checked",
+      "relative_link_findings": [],
+      "binary_content_revalidated": null
+    },
+    {
+      "path": "docs/product/backlog/GYS-OBS-001.json",
+      "original_blob_sha": "b4ea0851b735a895fabfc55a9c23e8707796a91d",
+      "reviewed_blob_sha": "b4ea0851b735a895fabfc55a9c23e8707796a91d",
+      "classification": "Reference guide/asset; inventory and navigation checked",
+      "relative_link_findings": [],
+      "binary_content_revalidated": null
+    },
+    {
+      "path": "docs/product/backlog/GYS-OBS-001.md",
+      "original_blob_sha": "6cdee4ead4420fe3f62a89526f63796c2d1164ee",
+      "reviewed_blob_sha": "6cdee4ead4420fe3f62a89526f63796c2d1164ee",
+      "classification": "Reference guide/asset; inventory and navigation checked",
       "relative_link_findings": [],
       "binary_content_revalidated": null
     }

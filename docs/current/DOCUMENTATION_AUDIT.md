@@ -1,8 +1,8 @@
 # Documentation audit: test-project
 
-Reviewed **2026-09-14**, default branch `main`, commit [`de2e23af9bc5`](https://github.com/mmurugayen/test-project/commit/de2e23af9bc51133f965b17f052442ea54b742d5).
+Reviewed **2026-09-14**, default branch `main`, commit [`5b037356c908`](https://github.com/mmurugayen/test-project/commit/5b037356c9081938aae8a2f8ffcbc3b1b59e03db).
 
-Inventory: **1 existing text documents**, **0 Office/PDF artifacts**, and **0 associated documentation assets**. See the [complete machine-readable inventory](documentation-inventory.json) for original and reviewed Git blob hashes.
+Inventory: **3 existing text documents**, **0 Office/PDF artifacts**, and **3 associated documentation assets**. See the [complete machine-readable inventory](documentation-inventory.json) for original and reviewed Git blob hashes.
 
 ## Review method and scope
 
@@ -12,7 +12,9 @@ Original requirements, design attachments, copied baselines, Office/PDF reports 
 
 ## Corrections
 
-- Expanded the placeholder README with actual default branch, tracked contents and explicit absence of runnable product architecture/workflows.
+- Replaced the former placeholder description after standalone diagnostics and CI landed.
+- Separated the implemented utility architecture from its investigation/recovery workflow.
+- Documented explicit configuration and optional external backend authority; no Terraform or domain product deployment is claimed.
 
 ## Navigation findings
 
@@ -23,10 +25,12 @@ No unresolved local file targets were found in the original document set after t
 | Document | Review disposition |
 | --- | --- |
 | [README.md](../../README.md) | Updated current navigation or source contract |
+| [docs/OBSERVABILITY_MCP.md](../../docs/OBSERVABILITY_MCP.md) | Reference guide/asset; inventory and navigation checked |
+| [docs/product/backlog/GYS-OBS-001.md](../../docs/product/backlog/GYS-OBS-001.md) | Reference guide/asset; inventory and navigation checked |
 
 ## Current guides
 
-The reviewed source has no runtime product to diagram. See [README](../../README.md).
+[Architecture](ARCHITECTURE.md) · [Product workflows](WORKFLOWS.md) · [Repository README](../../README.md)
 
 ## Validation record
 

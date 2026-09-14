@@ -1,6 +1,6 @@
 {
   "repository": "test-project",
-  "reviewed_commit": "de2e23af9bc51133f965b17f052442ea54b742d5",
+  "reviewed_commit": "5b037356c9081938aae8a2f8ffcbc3b1b59e03db",
   "local_links_checked": 5,
   "preserved_archive_link_findings": 0,
   "diagram_count": 0,
@@ -8,5 +8,22 @@
     "README.md"
   ],
   "checks": [],
-  "errors": []
+  "errors": [],
+  "reconciliation_checks": [
+    {
+      "command": "python3 scripts/check_observability_coverage.py",
+      "exit_code": 0,
+      "output": "{\"feature\": \"GYS-OBS-001\", \"product\": \"test-project\", \"source_files\": 4, \"provenance\": \"matched\", \"status\": \"passed\"}\n"
+    },
+    {
+      "command": "python3 -m unittest discover -s tests -p test_observability_mcp.py",
+      "exit_code": 0,
+      "output": "................\n----------------------------------------------------------------------\nRan 16 tests in 1.574s\n\nOK\n"
+    },
+    {
+      "command": "python3 -m unittest discover -s tests -p test_operation_tracing.py",
+      "exit_code": 0,
+      "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.004s\n\nOK\n"
+    }
+  ]
 }

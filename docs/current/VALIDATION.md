@@ -1,6 +1,6 @@
 # Documentation validation
 
-Reviewed 2026-09-14 against `de2e23af9bc51133f965b17f052442ea54b742d5`.
+Reviewed 2026-09-14 against `5b037356c9081938aae8a2f8ffcbc3b1b59e03db`.
 
 | Check | Result |
 | --- | --- |
@@ -12,3 +12,7 @@ Reviewed 2026-09-14 against `de2e23af9bc51133f965b17f052442ea54b742d5`.
 The 0 preserved archive-link findings are documented in the audit. No unresolved maintained local file links remain. External services, full application suites, provider/hardware execution and remote CI were not requalified by this documentation-only change. Existing test counts remain tied to their original evidence.
 
 [Machine-readable results](validation.json) · [Documentation audit](DOCUMENTATION_AUDIT.md)
+
+## Reconciliation checks (2026-09-14)
+
+Rechecked after preserving incoming logging and maintenance changes. The diagnostic utility MCP tests (16) and operation tracing tests (6) passed in this repository. Source boundary/provenance checks passed. Local documentation targets were rechecked; remote pipeline execution remains separately reported.
