@@ -1,3 +1,22 @@
 # test-project
 
-Repository foundation.
+Last source review: **2026-09-14**, default branch `main`, commit [`de2e23af9bc5`](https://github.com/mmurugayen/test-project/commit/de2e23af9bc51133f965b17f052442ea54b742d5). This records documentation review, not a release or live-system certification.
+
+This repository is a placeholder/test repository. The reviewed default branch contains 1 tracked file(s) and no deployable product, application entry point, infrastructure module or CI workflow.
+
+## Current contents
+
+- `README.md`
+
+## Architecture and workflow status
+
+There are no runtime components, data stores, provider resources or product execution paths to diagram in the reviewed source. Architecture and product workflow diagrams are **not applicable yet**. In particular, a repository name does not establish a Terraform implementation.
+
+## Checkout
+
+```bash
+git clone --branch main https://github.com/mmurugayen/test-project.git
+cd test-project
+```
+
+No build, install, deploy or test command is defined. Add instructions and source-backed diagrams when executable content is introduced. See the [documentation audit](docs/current/DOCUMENTATION_AUDIT.md).

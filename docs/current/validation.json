@@ -1,0 +1,12 @@
+{
+  "repository": "test-project",
+  "reviewed_commit": "de2e23af9bc51133f965b17f052442ea54b742d5",
+  "local_links_checked": 5,
+  "preserved_archive_link_findings": 0,
+  "diagram_count": 0,
+  "modified_original_documents": [
+    "README.md"
+  ],
+  "checks": [],
+  "errors": []
+}

@@ -1,0 +1,20 @@
+{
+  "review_date": "2026-09-14",
+  "repository": "mmurugayen/test-project",
+  "default_branch": "main",
+  "reviewed_commit": "de2e23af9bc51133f965b17f052442ea54b742d5",
+  "text_documents": 1,
+  "office_pdf_artifacts": 0,
+  "method": "Original source blobs verified by Git hash; text navigation scanned; current entry points, dependencies, setup and architecture compared with selected implementation source. Historical validation results and Office/PDF contents are not recertified.",
+  "records": [
+    {
+      "path": "README.md",
+      "original_blob_sha": "3eb02f3a1aaed9e346b26971349e566fee166480",
+      "reviewed_blob_sha": "ec96f7d02f9aa6acad42e1d967944c7233571773",
+      "classification": "Updated current navigation or source contract",
+      "relative_link_findings": [],
+      "binary_content_revalidated": null
+    }
+  ],
+  "relative_link_findings": []
+}
